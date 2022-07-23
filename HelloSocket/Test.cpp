@@ -1,3 +1,6 @@
+
+/*
+
 //避免windows和winsock2头文件中早期函数的冲突
 #define WIN32_LEAN_AND_MEAN
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
@@ -58,6 +61,7 @@ int main() {
 		std::cout << "监听网络端口失败" << std::endl;
 	}
 
+	//循环接收客户端消息
 	while (true)
 	{
 		Repeat(_sock);
@@ -69,3 +73,5 @@ int main() {
 	WSACleanup();
 	return 0;
 }
+
+*/

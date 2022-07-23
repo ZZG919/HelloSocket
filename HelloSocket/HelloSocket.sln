@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloSocket", "HelloSocket.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyTcpClient", "..\EasyTcpClient\EasyTcpClient.vcxproj", "{29B9EB0D-6496-4D65-8BDF-B3682E316CB6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EasyTcpServer", "..\EasyTcpServer\EasyTcpServer.vcxproj", "{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{29B9EB0D-6496-4D65-8BDF-B3682E316CB6}.Release|x64.Build.0 = Release|x64
 		{29B9EB0D-6496-4D65-8BDF-B3682E316CB6}.Release|x86.ActiveCfg = Release|Win32
 		{29B9EB0D-6496-4D65-8BDF-B3682E316CB6}.Release|x86.Build.0 = Release|Win32
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Debug|x64.ActiveCfg = Debug|x64
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Debug|x64.Build.0 = Debug|x64
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Debug|x86.Build.0 = Debug|Win32
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Release|x64.ActiveCfg = Release|x64
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Release|x64.Build.0 = Release|x64
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Release|x86.ActiveCfg = Release|Win32
+		{833FE56E-BE9F-4D41-830D-36D5E8A91B4B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
